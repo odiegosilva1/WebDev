@@ -1,0 +1,23 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+header {
+    background: rgb(66, 65, 64);
+}
+
+nav li {
+    display: inline;
+    
+}
+
+nav a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+}
