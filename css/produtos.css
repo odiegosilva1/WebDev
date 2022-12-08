@@ -1,16 +1,13 @@
 
-* {
-    padding: 0;
-    margin: 0;
-}
 
 
 header {
-    background: rgb(66, 65, 64);
+    background: rgb(46, 45, 45);
 }
 
 nav li {
     display: inline;
+    margin: 0 0 0 50px;
     
 }
 
