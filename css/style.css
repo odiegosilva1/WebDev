@@ -1,76 +1,108 @@
 
-/*reset*/
-* {
-    padding: 0;
-    margin: 0;
+header {
+    background: rgb(218, 213, 213);
+    padding: 20px 0;
+   
 }
 
-body {
-    background-color: #ffffff;
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
     
 }
 
-.titulo-centro {
-
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
+nav a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(5, 5, 5);
+    font-weight: bold;
+    font-size: 22px;
 }
 
+nav a:hover {
+    color: #c78c19;
+    text-decoration: line-through;
 
-
-p {
-    font-size: 20px;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-#missao {
-    color: rgb(0, 0, 0);
 
 }
 
-em, strong {
-
-    color: rgb(46, 15, 15);
-        
-}
-
-#banner {
-    width: 100vw;
-    height: 50vh;
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
 
 }
 
-.main {
- background: #cec9c9;
- padding: 30px;   
-    
-}
-
-.titulo-principal {
-    padding-left: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-ul {
+.produtos li {
     display: inline-block;
+    text-align: center;
     vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
+    width: 30%;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
 }
 
-.itens {
-    font-style: italic;
-    
+.produtos li:hover {
+    border-color: #c78c19;
 }
 
-.beneficios {
-    background: #f3ebeb;
-    padding: 20px;
+.produtos li:active {
+    border-color: #088c19;
 }
 
-.imgbeneficios {
-    width: 50%;
+
+.produtos li:hover h2 {
+    font-size: 34px;
+}
+
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+.preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0 0;
+}
+
+
+.descricao {
+    font-size: 18px;
+}
+
+
+footer {
+    background-image: url(../assets/bg.jpg);
+    text-align: center;
+    padding: 40px 0;
+
+}
+
+.Copyright {
+    color: azure;
+    font-size: 13px;
+    opacity: 50%;
+    margin: 20px 0 0;
+
 }
 
 
