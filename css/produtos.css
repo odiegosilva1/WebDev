@@ -90,4 +90,19 @@ nav a:hover {
 }
 
 
+footer {
+    background-image: url(../assets/bg.jpg);
+    text-align: center;
+    padding: 40px 0;
+
+}
+
+.Copyright {
+    color: azure;
+    font-size: 13px;
+    opacity: 50%;
+    margin: 20px 0 0;
+
+}
+
 
