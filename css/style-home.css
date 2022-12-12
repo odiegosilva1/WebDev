@@ -1,0 +1,76 @@
+
+/*reset*/
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #ffffff;
+    
+}
+
+.titulo-centro {
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+
+
+p {
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#missao {
+    color: rgb(0, 0, 0);
+
+}
+
+em, strong {
+
+    color: rgb(46, 15, 15);
+        
+}
+
+#banner {
+    width: 100vw;
+    height: 50vh;
+
+}
+
+.main {
+ background: #cec9c9;
+ padding: 30px;   
+    
+}
+
+.titulo-principal {
+    padding-left: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.itens {
+    font-style: italic;
+    
+}
+
+.beneficios {
+    background: #f3ebeb;
+    padding: 20px;
+}
+
+.imgbeneficios {
+    width: 50%;
+}
+
+
