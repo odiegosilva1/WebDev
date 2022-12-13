@@ -1,76 +1,55 @@
-
-/*reset*/
-* {
-    padding: 0;
-    margin: 0;
-}
-
-body {
-    background-color: #ffffff;
-    
-}
-
-.titulo-centro {
-
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
+header {
+	background: #BBBBBB;
+	padding: 20px 0;
 }
 
 
-
-p {
-    font-size: 20px;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-#missao {
-    color: rgb(0, 0, 0);
-
-}
-
-em, strong {
-
-    color: rgb(46, 15, 15);
-        
-}
 
 #banner {
-    width: 100vw;
-    height: 50vh;
-
+	width:100%;
 }
 
-.main {
- background: #cec9c9;
- padding: 30px;   
-    
+.principal{
+	background: #CCCCCC;
+	padding: 30px;
 }
 
 .titulo-principal {
-    padding-left: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	padding-left: 20px;
 }
 
-ul {
-    display: inline-block;
-    vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
+.titulo-centralizado {
+	text-align: center
+}
+
+p {
+	text-align: center;
+}
+
+#missao {
+	font-size: 20px
+}
+
+em strong {
+	color: #FF0000;
 }
 
 .itens {
-    font-style: italic;
-    
+	font-style: italic
 }
 
 .beneficios {
-    background: #f3ebeb;
-    padding: 20px;
+	background: #FFFFFF;
+	padding: 20px;
 }
 
-.imgbeneficios {
-    width: 50%;
+ul {
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	margin-right: 15%;
 }
 
-
+.imagembeneficios {
+	width: 50%;
+}
