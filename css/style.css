@@ -1,109 +1,120 @@
-
 header {
-    background: rgb(218, 213, 213);
-    padding: 20px 0;
-   
+	background: #BBBBBB;
+	padding: 20px 0;
 }
 
 .caixa {
-    position: relative;
-    width: 940px;
-    margin: 0 auto;
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
 }
 
 nav {
-    position: absolute;
-    top: 110px;
-    right: 0;
+	position: absolute;
+	top: 110px;
+	right: 0;
 }
 
 nav li {
-    display: inline;
-    margin: 0 0 0 15px;
-    
+	display: inline;
+	margin: 0 0 0 15px;
 }
 
 nav a {
-    text-transform: uppercase;
-    text-decoration: none;
-    color: rgb(5, 5, 5);
-    font-weight: bold;
-    font-size: 22px;
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
 }
 
 nav a:hover {
-    color: #c78c19;
-    text-decoration: line-through;
-
-
+	color: #C78C19;
+	text-decoration: underline;
 }
 
 .produtos {
-    width: 940px;
-    margin: 0 auto;
-    padding: 50px 0;
-
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
 }
 
 .produtos li {
-    display: inline-block;
-    text-align: center;
-    vertical-align: top;
-    width: 30%;
-    margin: 0 1.5%;
-    padding: 30px 20px;
-
-    box-sizing: border-box;
-    border: 2px solid #000000;
-    border-radius: 10px;
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
 }
 
 .produtos li:hover {
-    border-color: #c78c19;
+	border-color: #C78C19;
 }
 
 .produtos li:active {
-    border-color: #088c19;
+	border-color: #c5ccc6;	
 }
-
 
 .produtos li:hover h2 {
-    font-size: 34px;
+	font-size: 34px;
 }
-
 
 .produtos h2 {
-    font-size: 30px;
-    font-weight: bold;
+	font-size: 30px;
+	font-weight: bold;
 }
 
-
-.preco {
-    font-size: 22px;
-    font-weight: bold;
-    margin: 10px 0 0;
+.produto-descricao {
+	font-size: 18px;
 }
 
-
-.descricao {
-    font-size: 18px;
+.produto-preco {
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 10px;
 }
-
 
 footer {
-    background: url(../assets/bg.jpg);
-    text-align: center;
-    padding: 40px 0;
-    margin-bottom: 0;
-
+	text-align: center;
+	background: url("../assets/bg.jpg");
+	padding: 40px 0;
 }
 
-.Copyright {
-    color: azure;
-    font-size: 13px;
-    opacity: 50%;
-    margin: 20px 0 0;
+.copyright {
+	color: #FFFFFF;
+	font-size: 13px;
+	margin: 20px 0 0;
+}
 
+/* Página de contato */
+.contato {
+	width: 940px;
+	margin: 40px auto;
 }
 
 
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label, form p {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+form input, input textarea {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 13px;
+    width: 50%;
+}

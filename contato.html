@@ -1,43 +1,62 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contato - Barber Shop</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/reset.css">
-</head>
-<body>
-        <header>
-            <div class="caixa">    
-            <h1><img src="./assets/logo.png" alt="logo"></h1>
-            <nav>  
-                <ul>
-                    <li> <a href="#">Home</a></li>
-                    <li><a href="#">Produtos</a></li>
-                    <li><a href="#">Contato</a></li>
-                </ul>
-            </nav>
-          </div> 
-        </header>
-        <main>
-            <form>
-                <label for="nomecompleto">Nome completo</label>
-                <input type="text" id="nomecompleto">
-            </form>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Contato - Barbearia Alura</title>
 
-            <label for="email">E-mail</label>
-            <input type="text" id="email">
+		<link rel="stylesheet" href="./css/reset.css">
+		<link rel="stylesheet" href="./css/style.css">
+	</head>
+	<body>
+		<header>
+			<div class="caixa">
+				<h1><img src="./assets/logo.png"></h1>
 
-            <label for="telefone">Fone</label>
-            <input type="text" id="telefone">
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="produtos.html">Produtos</a></li>
+						<li><a href="contato.html">Contato</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
 
-            
-        </main>
-    <footer>
-        <img src="./assets/logo-branco.png" alt="logo barbearia na cor branca">
-        <p class="Copyright">&copy; Copyrigth Alura 2022</p>
-    </footer>
+			<main>
+				<form action="">
+					 <label for="nomecompleto">Nome Completo</label>
+					<input type="text" id="nomecompleto">
 
-</body>
+					<label for="email">E-mail</label>
+					<input type="text" id="email">
+
+					<label for="fone">Telefone</label>
+					<input type="text" id="fone">
+
+					<label for="mensagem">Mensagem</label>
+					<textarea cols="63" rows="10"></textarea>
+
+				<div>	
+					<p>Como prefere nosso contato?</p>
+					<label for="radio-email">E-Mail</label>
+					<input type="radio" name="contato" value="emai" id="radio-email">
+
+					<label for="radio-telefone">Telefone</label>
+					<input type="radio" name="contato" value="telefone" id="radio-telefone">
+
+					<label for="radio-WhatsApp">WhatsApp</label>
+					<input type="radio" name="contato" value="whatsapp" id="radio-WhatsApp">
+				</div>	
+
+					<label> <input type="checkbox"> Newsllatter</label>
+
+				<input type="submit" value="Enviar">
+				</form>
+			</main>
+
+		<footer>
+			<img src="./assets/logo-branco.png">
+			<p class="copyright">&copy; Copyright Barbearia Alura - 2019</p>
+		</footer>
+	</body>
 </html>
