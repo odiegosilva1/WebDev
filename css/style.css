@@ -36,7 +36,7 @@ nav a:hover {
 .produtos {
 	width: 940px;
 	margin: 0 auto;
-	padding: 50px 0;
+	padding: 45px 0;
 }
 
 .produtos li {
@@ -100,6 +100,7 @@ footer {
 main {
     width: 940px;
     margin: 0 auto;
+    display: block;
 }
 
 form {
@@ -112,9 +113,13 @@ form label, form p {
     margin: 0 0 10px;
 }
 
-form input, input textarea {
+.input-padrao {
     display: block;
     margin: 0 0 20px;
     padding: 10px 13px;
     width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0;
 }
