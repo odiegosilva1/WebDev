@@ -36,7 +36,7 @@ nav a:hover {
 .produtos {
 	width: 940px;
 	margin: 0 auto;
-	padding: 45px 0;
+	padding: 50px 0;
 }
 
 .produtos li {
@@ -56,7 +56,7 @@ nav a:hover {
 }
 
 .produtos li:active {
-	border-color: #c5ccc6;	
+	border-color: #088C19;	
 }
 
 .produtos li:hover h2 {
@@ -90,36 +90,28 @@ footer {
 	margin: 20px 0 0;
 }
 
-/* Página de contato */
-.contato {
-	width: 940px;
-	margin: 40px auto;
-}
-
-
 main {
-    width: 940px;
-    margin: 0 auto;
-    display: block;
+	width: 940px;
+	margin: 0 auto;
 }
 
 form {
-    margin: 40px 0;
+	margin: 40px 0;
 }
 
 form label, form p {
-    display: block;
-    font-size: 20px;
-    margin: 0 0 10px;
+	display:block;
+	font-size: 20px;
+	margin: 0 0 10px;
 }
 
 .input-padrao {
-    display: block;
-    margin: 0 0 20px;
-    padding: 10px 13px;
-    width: 50%;
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
 }
 
 .checkbox {
-    margin: 20px 0;
+	margin: 20px 0;
 }
