@@ -153,10 +153,7 @@ td th {
 
 /*css da página inical*/
 
-.banner {
-	width: 100%;
 
-}
 
 .titulo-principal {
 	text-align: center;
@@ -178,4 +175,12 @@ td th {
 
 .imagem-beneficios {
 	width: 60%;
+
+}
+
+/*css banner*/
+
+.banner {
+	width: 100%;
+
 }
