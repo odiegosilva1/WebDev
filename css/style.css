@@ -1,5 +1,11 @@
+
+* {
+	font-family: 'Montagu Slab', serif;
+}
+
+
 header {
-	background: #BBBBBB;
+	background: linear-gradient( #888888,#fefefe);
 	padding: 20px 0;
 }
 
@@ -25,6 +31,7 @@ nav a {
 	color: #000000;
 	font-weight: bold;
 	font-size: 22px;
+	font-family: 'Montagu Slab', serif;
 	text-decoration: none;
 }
 
@@ -78,11 +85,7 @@ nav a:hover {
 	margin-top: 10px;
 }
 
-footer {
-	text-align: center;
-	background: url("../assets/bg.jpg");
-	padding: 40px 0;
-}
+
 
 .copyright {
 	color: #FFFFFF;
@@ -90,10 +93,6 @@ footer {
 	margin: 20px 0 0;
 }
 
-main {
-	width: 940px;
-	margin: 0 auto;
-}
 
 form {
 	margin: 40px 0;
@@ -153,12 +152,27 @@ td th {
 
 /*css da página inical*/
 
+.itens {
+	line-height: 1.5;
+}
+
+.itens:first-child {
+	font-weight: bold;
+}
 
 
 .titulo-principal {
 	text-align: center;
 	font-size: 2em;
 	margin: 0 0 1em;
+	clear: left;
+}
+
+.principal {
+	padding: 3em 0;
+	background: #fefefe;
+	width: 940px;
+	margin: 0 auto;
 }
 
 .principal p {
@@ -173,9 +187,51 @@ td th {
 	font-style: italic;
 }
 
+.map {
+	padding: 3em 0;
+	
+	
+}
+
+.map p {
+	margin: 0 0 2em;
+	text-align: center;
+}
+
+.mapa-conteudo {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.beneficios {
+	padding: 3em 0;
+	background: linear-gradient(#fefefe, #BBBBBB);
+}
+
+.itens:before {
+	content: "✯";
+}
+
+.conteudo-beneficios {
+	width: 640px;
+	margin: 0 auto;
+}
+
+.lista-beneficios {
+	width: 40%;
+	display: inline-block;
+	vertical-align: top;
+}
+
 .imagem-beneficios {
 	width: 60%;
 
+}
+
+.utensilios {
+	width: 120px;
+	float: left;
+	margin: 0 20px 20px 0;
 }
 
 /*css banner*/
@@ -183,4 +239,11 @@ td th {
 .banner {
 	width: 100%;
 
+}
+
+
+footer {
+	text-align: center;
+	background: url("../assets/bg.jpg");
+	padding: 40px 0;
 }
