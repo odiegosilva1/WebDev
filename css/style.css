@@ -208,6 +208,18 @@ td th {
 	background: linear-gradient(#fefefe, #BBBBBB);
 }
 
+
+.imagem-beneficios {
+    width: 60%;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow: 10px 10px 10px 0 #000000;
+}
+
+.imagem-beneficios:hover {
+    opacity: 0.2;
+}
+
 .itens:before {
 	content: "✯";
 }
@@ -246,4 +258,22 @@ footer {
 	text-align: center;
 	background: url("../assets/bg.jpg");
 	padding: 40px 0;
+}
+
+@media screen and (max-width: 480px) {
+    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+        width: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+    }
+
+    .lista-beneficios, .imagem-beneficios {
+        width: 100%;
+    }
 }
